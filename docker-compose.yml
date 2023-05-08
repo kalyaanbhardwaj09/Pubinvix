@@ -1,0 +1,25 @@
+# version: "3.3"
+
+services:
+
+  app:
+
+    container_name: srcbot
+
+    build: .
+
+    command: bash bash.sh
+
+    environment:
+
+      API_ID: 11335251
+
+      API_HASH: 39b4e23f71dcdd6138067fa7ff4656c9
+
+      BOT_TOKEN: 6070837253:AAGYpHylT7uJ5hSm2jdMYfP7XccThuM4lIs
+
+      SESSION: # AQAasn227sseM5F3qSyLPD86M-obq_xPsF4UIEGADeVNyVFhVtY4qZUQha7ACw311vZULPj_tVikuiyak_ArUjM4OyVFWLeXjJHGZDdV9d_UDrRlZGvXkOCoyzDEwvCB4fq9rG8aMSYGruAn4vnMqWjKJePtePkJEYYkrxul1IRdWt7KVH-jK7mD37Q0bK6xA6AuNaeFuhkjYEX4jpr6emqpIbw_RaYG5QGn795zvcfmIsafPbVzwcW_dX_Ee-fpwNDeXNq9-DVTmEjDQPXksuwxVHagu18mWZD_Bs_28KQGrqKt24jtjNd45LsKqdL-yWvmmfm-sUWXpUgqtTs0N_FDAAAAATpUc_AA
+
+      AUTH: 5273580528
+
+      FORCESUB: forceeaubb
